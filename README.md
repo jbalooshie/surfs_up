@@ -15,9 +15,9 @@ To analyze the data, we will be using Python, SQLLite, and Flask. Python will be
 
 * There can also be very warm days in December. The highest temperature recorded was 83 degrees, which is two degrees colder than the warmest June day in the dataset. So, there can also be outlier days where we might see an unexpected bump in customers looking for ice cream. 
 
-[June Data](Resources/june.png)
+[June Data](Resources/june.PNG)
 
-[December Data](Resources/december.png)
+[December Data](Resources/december.PNG)
 
 ## Summary
 ### High Level Summary
