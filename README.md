@@ -3,6 +3,8 @@ This repository was created as part of a 6 month Data Analystics Bootcamp admini
 
 9/22/2022: I made a small change to the app to fix an issue that prevented you from returning home and choosing a different app route in the session. 
 
+In the future I might return to this to practice Flask further and add buttons to let you navigate between the different routes in the app. 
+
 ## Overview of the Statistical Analysis
 ### Overview
 The purpose of this analysis is to review weather data and create a case for opening a surf shop that also sells ice cream. With this analysis, we will demonstrate that there are enough warm days during the year to ensure steady traffic to this shop. Our primary investor has had previous ventures in the surfing industry fail due to inclement weather. We will specifically be looking at a dataset for the island of Oahu, but the code was designed to be easily adapted to other islands as well.
