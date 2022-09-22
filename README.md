@@ -1,4 +1,7 @@
 # surfs_up
+This repository was created as part of a 6 month Data Analystics Bootcamp administed by George Washington University. This is the repository for the Module 8 Challenge. This challenge involved creating a Flask app to show off weather data we had gathered. New topics covered included SQLite, SQLAlchemy, and Flask. Final project work is in SurfsUp_Challenge.ipynb and app.py. 
+
+9/22/2022: I made a small change to the app to fix an issue that prevented you from returning home and choosing a different app route in the session. 
 
 ## Overview of the Statistical Analysis
 ### Overview
@@ -15,9 +18,9 @@ To analyze the data, we will be using Python, SQLLite, and Flask. Python will be
 
 * There can also be very warm days in December. The highest temperature recorded was 83 degrees, which is two degrees colder than the warmest June day in the dataset. So, there can also be outlier days where we might see an unexpected bump in customers looking for ice cream. 
 
-[June Data](Resources/june.PNG)
+![June Data](Resources/june.PNG)
 
-[December Data](Resources/december.PNG)
+![December Data](Resources/december.PNG)
 
 ## Summary
 ### High Level Summary
