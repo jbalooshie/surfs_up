@@ -11,7 +11,8 @@ from sqlalchemy import create_engine, func
 from flask import Flask, jsonify 
 
 # Create a database
-engine = create_engine("sqlite:///hawaii.sqlite")
+engine = create_engine("sqlite:///hawaii.sqlite?check_same_thread=False") 
+# Revisited the project and the app would crash after visiting a route. Set check_same_thread to false per https://stackoverflow.com/questions/15784357/sqlalchemy-setting-mysql-charset-as-create-engine-argument
 
 # Reflect the database
 Base = automap_base()
